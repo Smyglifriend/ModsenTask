@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="11.0.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ModsenTask.Queries.Event.Abstrations\ModsenTask.Queries.Event.Abstrations.csproj" />
+      <ProjectReference Include="..\ModsenTask.Queries.Event\ModsenTask.Queries.Event.csproj" />
+      <ProjectReference Include="..\ModsenTask.Web.Core\ModsenTask.Web.Core.csproj" />
+    </ItemGroup>
+
+
+</Project>
