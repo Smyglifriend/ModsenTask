@@ -10,7 +10,7 @@
 
 2.DataAcces - хранит в себе все проекты, которые нужны для доступа к базе данных.
 
-.DataAccess - реализовывает в себе паттерн UnitOfWork и Repositories. Также содержит Context базы данных и миграции.
+.DataAccess - реализовывал паттерн UnitOfWork и Repositories. Также содержит Context базы данных и миграции.
 A .DataAccess.Abstractions хранит интерфейсы для реализации UnitOfWork и Repositories.
 
 .Domain и .Domain.Abstractions - сущности и абстракция сущностей.
